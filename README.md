@@ -1,16 +1,16 @@
-# Python Automation Tools
+# Python Automation Tools 🚀
 
-A collection of **Python scripts** designed to automate everyday tasks and boost productivity.
+A collection of powerful **Python scripts** designed to automate everyday tasks and boost productivity.
 
-## 📂 Contents
+## ✨ Features
 
-| Script | Description |
-|--------|-------------|
-| `file-organizer.py` | Organize files by extension |
-| `backup-manager.py` | Automated backup with scheduling |
-| `pdf-merger.py` | Merge multiple PDF files |
-| `csv-validator.py` | Validate and clean CSV data |
-| `web-scraper.py` | Extract data from websites |
+| # | Tool | Description |
+|---|------|-------------|
+| 1 | **File Organizer** | Automatically organize files into folders by extension type (Images, Documents, Videos, Code, etc.) |
+| 2 | **Backup Manager** | Automated backup system with scheduling, compression, and rotation |
+| 3 | **PDF Merger** | Merge multiple PDF files into a single document with page tracking |
+| 4 | **CSV Validator** | Validate CSV data — detect structural issues, validate emails/phones, and get column summaries |
+| 5 | **Web Scraper** | Extract data from websites — text, links, tables, images — with JSON/CSV export |
 
 ## ⚡ Quick Start
 
@@ -21,10 +21,34 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### Run a specific tool directly
+
+```bash
+python main.py 1   # File Organizer
+python main.py 2   # Backup Manager
+python main.py 3   # PDF Merger
+python main.py 4   # CSV Validator
+python main.py 5   # Web Scraper
+```
+
+Or run each script independently:
+
+```bash
+python file_organizer.py
+python backup_manager.py
+python pdf_merger.py
+python csv_validator.py
+python web_scraper.py
+```
+
 ## 📦 Requirements
 
 - Python 3.10+
-- See `requirements.txt` for dependencies
+- See `requirements.txt` for full dependency list
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit a PR or open an issue.
 
 ## 📄 License
 
